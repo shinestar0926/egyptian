@@ -1,0 +1,28 @@
+    header {
+        background: white;
+        box-shadow: 0px 10px 20px #6161611a;
+        padding: 15px 0;
+        position: absolute;
+        top: 46px;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        margin-bottom: 60px;
+        // Here put your css of the default view of header
+        &.scrolled {
+            position: fixed;
+            top: 0;
+            transform: translateY(-100%);
+            .container-fluid.d-flex {
+                flex-wrap: unset;
+            }
+            .search-input {
+                order: 3;
+            }
+            // Here put your css of the scrolled header
+        }
+        &.fixed {
+            transition: 0.5s;
+            transform: none;
+        }
+    }

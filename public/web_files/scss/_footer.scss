@@ -1,0 +1,41 @@
+footer {
+    padding: 80px 0;
+    .columns {
+        display: flex;
+        h4 {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 26px;
+        }
+        >div {
+            flex: 1;
+            &:first-child {
+                flex: 2;
+            }
+        }
+        li {
+            padding: 7px 0;
+            .form {
+                display: flex;
+                .form-group {
+                    margin-left: 20px;
+                    .form-control {
+                        width: 330px;
+                    }
+                }
+            }
+            p {
+                color: rgba($color: #A1A1A1, $alpha: 0.9);
+            }
+            a {
+                color: rgba($color: #A1A1A1, $alpha: 0.9);
+            }
+        }
+        .social {
+            display: flex;
+            a {
+                margin-left: 30px;
+            }
+        }
+    }
+}

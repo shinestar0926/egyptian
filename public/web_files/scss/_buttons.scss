@@ -1,0 +1,16 @@
+.black-btn {
+    color: white;
+    background: #000000;
+    border: 1ps solid transparent;
+    transition: .5s;
+    &:hover {
+        color: #000000;
+        background: transparent;
+        border: 1px solid #000000;
+    }
+}
+
+.white-btn {
+    background: white;
+    color: #000000;
+}
